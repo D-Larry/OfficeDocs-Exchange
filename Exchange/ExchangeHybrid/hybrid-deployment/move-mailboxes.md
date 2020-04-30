@@ -45,7 +45,7 @@ For more information about migrating on-premises Exchange organizations to Excha
 
 - For information about keyboard shortcuts that may apply to the procedures in this topic, see [Keyboard shortcuts for the Exchange admin center](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
-- The Office 365 Exchange license must be assigned only after the migration is complete. You then have 30 days to assign the license. 
+- The Office 365 Exchange license can be assigned after the migration is complete. You then have 30 days to assign the license. However, if the license has been applied and then removed in the past, the time it was applied is decremented from the 30 days grace.  With appropriate AAD Connect syncronization, it should be licensed in advance of migration.  
 
 > [!TIP]
 > Having problems? Ask for help in the Exchange forums. Visit the forums at [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), or [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351).
